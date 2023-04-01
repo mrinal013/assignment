@@ -1,4 +1,4 @@
-<div class="col-4 border">
+<div class="col-12 col-md-4 border">
     <h3><?php echo esc_html( get_the_title() ); ?></h3>
     <span class="badge badge-pill badge-primary bg-info"><?php echo esc_html( $args['name'] ); ?></span>
     <p><?php the_excerpt(); ?></p>

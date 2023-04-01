@@ -4,7 +4,7 @@ if ( empty( $tagline ) ) {
     $tagline = get_the_excerpt();
 }
 ?>
-<div class="col-4 border">
+<div class="col-12 col-md-4 border">
         <h3><?php echo esc_html( get_the_title() ); ?></h3>
         <span class="badge badge-pill badge-primary bg-primary"><?php echo esc_html( $args['name'] ); ?></span>
         <p><?php echo esc_html( $tagline ); ?></p>
