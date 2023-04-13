@@ -163,7 +163,7 @@ function assignment_post_types($query){
     $is_target_query = ! is_admin() && $query->is_main_query();
             
     if ( $is_target_query ) {
-        $target_types = array( 'post', 'book' );
+        $target_types = array( 'post', 'page', 'book' );
         $query->set( 'post_type', $target_types );
     }
 }
